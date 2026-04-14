@@ -5,13 +5,13 @@
   "author": {
     "name": "defftripp"
   },
-  "homepage": "http://34.58.161.62/docs",
+  "homepage": "https://seedance-video.duckdns.org/docs",
   "license": "MIT",
   "keywords": ["claude", "mcp", "stripe", "video", "seedance"],
   "mcpServers": "./.mcp.json",
   "userConfig": {
     "api_endpoint": {
-      "description": "Backend URL without trailing slash. Example: http://34.58.161.62",
+      "description": "Backend URL without trailing slash. Example: https://seedance-video.duckdns.org",
       "sensitive": false
     },
     "api_token": {
