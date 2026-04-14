@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "seedance-video": {
+      "type": "streamable_http",
+      "url": "${user_config.api_endpoint}/mcp/",
+      "headers": {
+        "Authorization": "Bearer ${user_config.api_token}"
+      }
+    }
+  }
+}

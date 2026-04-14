@@ -1,0 +1,22 @@
+{
+  "name": "seedance-video",
+  "version": "0.1.0",
+  "description": "Paid Claude plugin for video generation through a public MCP backend.",
+  "author": {
+    "name": "defftripp"
+  },
+  "homepage": "http://34.58.161.62/docs",
+  "license": "MIT",
+  "keywords": ["claude", "mcp", "stripe", "video", "seedance"],
+  "mcpServers": "./.mcp.json",
+  "userConfig": {
+    "api_endpoint": {
+      "description": "Backend URL without trailing slash. Example: http://34.58.161.62",
+      "sensitive": false
+    },
+    "api_token": {
+      "description": "API token from the dashboard after signup or checkout",
+      "sensitive": true
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "claude-marketplace",
+  "owner": {
+    "name": "defftripp"
+  },
+  "metadata": {
+    "description": "Marketplace for paid Claude plugins backed by MCP services.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "seedance-video",
+      "source": "./plugins/seedance-video",
+      "description": "Paid Claude plugin for video generation via MCP backend and billing flow.",
+      "version": "0.1.0",
+      "author": {
+        "name": "defftripp"
+      },
+      "category": "Video",
+      "tags": ["claude", "mcp", "stripe", "video", "seedance"]
+    }
+  ]
+}
