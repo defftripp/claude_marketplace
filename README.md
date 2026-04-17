@@ -2,19 +2,24 @@
 
 Public marketplace repository for the `seedance-video` Claude plugin.
 
-## Install
+## Public Seedance URLs
 
-From Claude Code:
+- Home: `https://seedance-video.duckdns.org/`
+- Pricing: `https://seedance-video.duckdns.org/pricing`
+- Dashboard: `https://seedance-video.duckdns.org/dashboard?email=you@example.com`
+- Docs: `https://seedance-video.duckdns.org/docs`
+
+## Install in Claude Code
 
 ```text
 /plugin marketplace add defftripp/claude_marketplace
-/plugin install seedance-video@claude-marketplace --scope local
+/plugin install seedance-video
 ```
 
 ## Plugin config
 
-- `api_endpoint`: `http://34.58.161.62`
-- `api_token`: token from the dashboard at `http://34.58.161.62/pricing`
+- `api_endpoint`: `https://seedance-video.duckdns.org`
+- `api_token`: personal `svk_...` token from the dashboard after checkout
 
 ## What this repo contains
 
@@ -23,4 +28,4 @@ From Claude Code:
 - `plugins/seedance-video/.mcp.json`
 - plugin skills
 
-Backend code lives in a separate repository and is not included here.
+Backend code and storefront live in a separate repository.
